@@ -1,0 +1,10 @@
+{
+    "Counter": "Counter",
+    "Employees": "Employees",
+    "UserList": "User List",
+    "CurrentCounter": "Current Counter",
+    "Incerment": "Incerment",
+    "Decerment": "Decerment",
+    "IncermentBy": "Incerment By {value}",
+    "Options": "Options"
+}

@@ -1,0 +1,10 @@
+{
+    "Counter": "計數器",
+    "Employees": "員工",
+    "UserList": "使用者列表",
+    "CurrentCounter": "當前計數",
+    "Incerment": "增加",
+    "Decerment": "減少",
+    "IncermentBy": "增加 {value}",
+    "Options": "設置"
+}

@@ -1,14 +1,15 @@
 
 <template>
-  <NavMenu></NavMenu>
-  <router-view/>
+  <router-view />
 </template>
 
 <script lang="ts" setup>
-import NavMenu from './components/NavMenu.vue';
+
 </script>
 
 <style lang="scss">
+@import "style.scss";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
