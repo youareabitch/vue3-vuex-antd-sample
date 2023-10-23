@@ -52,8 +52,8 @@ const router = createRouter({
 router.beforeEach((to) => {
   const isAuthenticated = Util.getCookie('userEmail') ? true : false
 
-  if (to.name !== 'Login' && !isAuthenticated) {
-    return { name: 'Login' }
+  if (to.name !== 'login' && !isAuthenticated) {
+    return { name: 'login' }
   }
 
   // console.log(store.getters.getCounterState.count);
