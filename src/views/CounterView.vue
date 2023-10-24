@@ -7,24 +7,21 @@
 
     <a-row justify="center">
         <a-col>
-            <a-statistic :title="$t('CurrentCounter')" :value="store.getters.getCounterState.count" />
+            <CounterDisplay :value="store.getters.getCounterState.count"></CounterDisplay>
         </a-col>
     </a-row>
 
     <a-row justify="center">
         <a-col>
-            <a-space>
-                <a-button type="primary" @click="onIncermentClick">{{ $t('Incerment') }}</a-button>
-                <a-button @click="onDecermentClick">{{ $t('Decerment') }}</a-button>
-                <a-button type="primary" danger @click="onIncermentByClick(5)">{{ $t('IncermentBy', { value: '5' })
-                }}</a-button>
-            </a-space>
+            <CounterButtons @on-incerment="onIncermentClick" @on-decerment="onDecermentClick" @on-incerment-by="onIncermentByClick"></CounterButtons>
         </a-col>
     </a-row>
 </template>
 
 <script setup lang="ts">
 import store from "@/store";
+import CounterDisplay from "../components/Counter/CounterDisplay.vue";
+import CounterButtons from "../components/Counter/CounterButtons.vue";
 import { CounterActions } from "../constant/counter-actions.enum";
 
 function onIncermentClick() {
