@@ -2,9 +2,26 @@
     "Counter": "計數器",
     "Employees": "員工",
     "UserList": "使用者列表",
+    "FormsMenu": "表單",
     "CurrentCounter": "當前計數",
     "Incerment": "增加",
     "Decerment": "減少",
     "IncermentBy": "增加 {value}",
-    "Options": "設置"
+    "Options": "設置",
+    "Forms": {
+        "Name": "使用者名稱",
+        "Email": "電子郵件",
+        "Website": "網站",
+        "Company": "公司",
+        "Location": "地點",
+        "NameRequired": "請輸入使用者名稱",
+        "EmailRequired": "請輸入電子郵件",
+        "EmailInvalid": "不正確的電子郵件格式",
+        "WebsiteRequired": "請輸入網站",
+        "CompanyRequired": "請輸入公司",
+        "LocationRequired": "請輸入地點",
+        "Submit": "送出",
+        "Reset": "重置",
+        "UserCreateSuccess":"成功建立使用者"
+    }
 }

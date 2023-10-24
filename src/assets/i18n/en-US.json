@@ -2,9 +2,26 @@
     "Counter": "Counter",
     "Employees": "Employees",
     "UserList": "User List",
+    "FormsMenu": "Forms",
     "CurrentCounter": "Current Counter",
     "Incerment": "Incerment",
     "Decerment": "Decerment",
     "IncermentBy": "Incerment By {value}",
-    "Options": "Options"
+    "Options": "Options",
+    "Forms": {
+        "Name": "Name",
+        "Email": "Email",
+        "Website": "Website",
+        "Company": "Company",
+        "Location": "Location",
+        "NameRequired":"Name field is required.",
+        "EmailRequired":"Email field is required.",
+        "EmailInvalid":"Invalid Email address format.",
+        "WebsiteRequired":"Website field is required.",
+        "CompanyRequired":"Company field is required.",
+        "LocationRequired":"Location field is required.",
+        "Submit":"Submit",
+        "Reset":"Reset",
+        "UserCreateSuccess":"User Create Successfully."
+    }
 }

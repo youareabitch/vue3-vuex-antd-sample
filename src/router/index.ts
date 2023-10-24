@@ -17,6 +17,7 @@ const routes: Array<RouteRecordRaw> = [
       { path: '/counter', name: 'counter', component: () => import('../views/CounterView.vue') },
       { path: '/employees', name: 'employees', component: () => import('../views/EmployeesView.vue') },
       { path: '/user-list', name: 'user-list', component: () => import('../views/UserListView.vue') },
+      { path: '/forms', name: 'forms', component: () => import('../views/FormsView.vue') },
     ]
   },
   // {
